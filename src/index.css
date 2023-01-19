@@ -20,6 +20,7 @@ body{
       "footer footer footer footer"
   ;
   grid-template-rows: 100px 70px auto 70px;
+  grid-template-columns: 1fr 1fr 1fr 25%;
 }
 
 /*ESTILOS CABECERA*/
@@ -132,6 +133,15 @@ body{
   font-size: 30px;
 }
 
+.articulo-item h3 a{
+  text-decoration: none;
+  color: black;
+}
+
+.articulo-item h3 a:hover{
+  color: blue;
+}
+
 .jumbo{
   width: 85%;
   padding: 55px;
@@ -152,10 +162,26 @@ body{
   margin-bottom: 40px;
 }
 
+.jumbo .mascara img{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.form-group .mascara{
+  width: 150px;
+  margin: 5px;
+}
+
+.form-group .mascara img{
+  width: 150px;
+}
+
 .button,
 button,
 input[type="submit"],
-input[type="button"]{
+input[type="button"],
+.edit{
   text-decoration: none;
   width: 100px;
   background: #0b70e1;

@@ -15,7 +15,7 @@ export const Sidebar = () => {
         <h3 className='title'>Buscador</h3>
         <form onSubmit={hacerBusqueda}>
           <input type='text' name='search_field' />
-          <button id='search'>Buscar</button>
+          <input type="submit" id='search' value="Buscar"/>
         </form>
       </div>
 
